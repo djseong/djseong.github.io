@@ -1,7 +1,201 @@
-<!DOCTYPE html> 
-<html> 
-<body> 
-<h1> Hello world </h1>
-<p> Github </p>
+<!DOCTYPE html>
+<!-- Template by Quackit.com -->
+<!-- Images by various sources under the Creative Commons CC0 license and/or the Creative Commons Zero license. 
+Although you can use them, for a more unique website, replace these images with your own. -->
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>My Website</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom Fonts from Google -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+    <!-- Icon for Facebook --> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <!-- default bar that is fixed at top indep. of page scroll --> 
+    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Logo and responsive toggle -->
+            <!--collapse when screen size is too small --> 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Navbar links - what to collapse -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About Me</a>
+                    </li>
+                    <li>
+                      <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href = "#experience">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+
+  <!-- Header -->
+    <header>
+        <div class="header-content" id = "home">
+            <div class="header-content-inner">
+                <h1>Daniel Seong</h1>
+                <h2>Computer Scientist | Harvard College</h2><br>
+                <a href="#about" class="btn btn-primary btn-lg">Start</a>
+            </div>
+        </div>
+    </header>
+
+  <!-- Intro Section -->
+    <section class="intro" id = "about">
+        <div class="container">
+            <div class = "row"> 
+              <div class = "col-md-12"> 
+                <h2> About Me </h2>
+            </div>
+            <div class="row">
+                <div class = "col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+                    <div class = "media"> 
+                      <div class = "media-left">
+                        <img class = "media-object about_image" src = "images/Me.jpg" alt = ""> 
+                      </div>
+                      <div class = "media-body"> 
+                        <p> Hello! I'm Daniel. I'm a freshman attending Harvard College studying computer science and neurobiology. I enjoy learning anything about coding. In my free time I play tennis and violin. </p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content 1 --> 
+    <section class = "content content-1" id = "portfolio"> 
+      <div class = "features"> 
+        <div class = "container"> 
+          <div class = "row">
+              <div class = "col-md-12"> 
+                  <h2> Portfolio </h2>
+              </div>
+          </div>
+          <div class = "row"> 
+            <a href = "https://chrome.google.com/webstore/detail/facebook-auto-like/folgjcjccjeaplekjoognnbcibdkbdii"> 
+            <div class = "col-md-6 item1"> 
+              <div class = "icon"> 
+                <i class="fa fa-facebook shadow"></i>
+              </div>
+              </a>
+              <h3> Facebook Auto-Like </h3>
+              <p> A Google Chrome extension that automatically likes your friend's Facebook posts, comments, and pictures. Click picture to check out on Google Play Store! </p>
+            </div>
+            <a href = "additional/abstract.pdf"> 
+            <div class = "col-md-6 item2"> 
+              <div class = "icon"> 
+                <i class="fa fa-flask shadow"></i>
+              </div>
+            </a>
+              <h3> Phosphorylation Sites in HD  </h3>
+              <p> Project that identified critical phosphorylation sites in huntingtin protein to help develop clinical treatment for Huntington's Disease. Click picture for abstract! </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Content 2 -->
+     <section class="content content-2" id = "experience">
+        <h2>Experience</h2>
+        <h4 class = "experience">Massachusetts General Hospital Intern</h4>
+        <div class="container">
+            <div class="row left">
+                <div class = "col-sm-6">
+                    <div class = "data_pic" style = "background-image: url('images/excel.png')">             
+                    </div>
+                </div>
+                <div class="col-sm-6 text">
+                    <h5>
+                    <span class ="data_icons"><i class="fa fa-bar-chart"></i>
+                    </span>
+                    Data Analysis
+                    </h5>
+                      <p class="lead text-light">
+                         Downloaded huntingtin gene data from 1000 Genomes Project and analyzed for polymorphisms at key phosphorylation sites. Polymorphic phosphorylation sites have greater chance of being significant in disease pathogenesis. 
+                        </p>
+                </div>             
+            </div>
+        </div>
+    </section>
+    
+  <!-- Footer -->
+    <footer class="page-footer">
+    
+      <!-- Contact Us -->
+        <div class="contact" id = "contact">
+          <div class="container">
+        <h2 class="section-heading">Contact Me</h2>
+        <p><span class="glyphicon glyphicon-envelope"></span><br> dseong01@college.harvard.edu</p>
+          </div>
+        </div>
+          
+        <!-- Copyright etc -->
+        <div class="small-print">
+          <div class="container">
+            <p>Copyright &copy; Daniel Seong 2016</p>
+          </div>
+        </div>
+        
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Javascript -->
+    <script src="js/custom.js"></script>
+
 </body>
+
 </html>
+
