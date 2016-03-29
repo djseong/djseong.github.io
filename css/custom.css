@@ -57,7 +57,7 @@ header {
             rgba(0, 0, 0, 0.7), 
           rgba(0, 0, 0, 0.7)
         ),
-        url("https://images.unsplash.com/photo-1445620466293-d6316372ab59?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bccb92db735f108588edea0330bb2aca")
+        url("images/laptop.jpg")
     ;
     position: relative;
     width: 100%;
@@ -65,8 +65,6 @@ header {
     min-height: auto;
     text-align: center;
     color: #000;
- /*   background-image: url("https://images.unsplash.com/photo-1445620466293-d6316372ab59?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bccb92db735f108588edea0330bb2aca");*/
-    /*background: #EDEDED;*/
     background-position: 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
