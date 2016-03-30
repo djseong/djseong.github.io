@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!-- Template by Quackit.com -->
-<!-- Images by various sources under the Creative Commons CC0 license and/or the Creative Commons Zero license. 
-Although you can use them, for a more unique website, replace these images with your own. -->
+
 <html lang="en">
 
 <head>
@@ -9,22 +7,31 @@ Although you can use them, for a more unique website, replace these images with 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
     <title>My Website</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
     <link href="css/custom.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
     <!-- Custom Fonts from Google -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
@@ -53,19 +60,19 @@ Although you can use them, for a more unique website, replace these images with 
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active">
-                        <a href="#home">Home</a>
+                        <a data-scroll data-options = '{ "easing": "easeInOutQuad", "speed": 700}' href = "#">Home</a>
                     </li>
                     <li>
-                        <a href="#about">About Me</a>
+                        <a data-scroll data-options = '{ "easing": "easeInOutQuad", "speed": 700, "offset": 50}' href="#about">About Me</a>
                     </li>
                     <li>
-                      <a href="#portfolio">Portfolio</a>
+                      <a data-scroll data-options = '{ "easing": "easeInOutQuad", "speed": 700, "offset": 50}' href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href = "#experience">Experience</a>
+                        <a data-scroll data-options = '{ "easing": "easeInOutQuad", "speed": 700, "offset": 50}' href = "#experience">Experience</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a data-scroll data-options = '{ "easing": "easeInOutQuad", "speed": 700, "offset": 50}' href="#contact">Contact</a>
                     </li>
                 </ul>
                 
@@ -75,11 +82,12 @@ Although you can use them, for a more unique website, replace these images with 
 
   <!-- Header -->
     <header>
-        <div class="header-content" id = "home">
+        <div class="header-content">
             <div class="header-content-inner">
                 <h1>Daniel Seong</h1>
                 <h2>Computer Scientist | Harvard College</h2><br>
-                <a href="#about" class="btn btn-primary btn-lg">Start</a>
+                <a data-scroll data-options = '{ "easing": "easeInOutQuad", "speed": 700, "offset": 50}'
+                  href="#about" class="btn btn-primary btn-lg">Start</a>
             </div>
         </div>
     </header>
@@ -191,6 +199,9 @@ Although you can use them, for a more unique website, replace these images with 
 
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Smooth Scrolling Plugin --> 
+    <script src="js/smooth-scroll.min.js"></script>
 
     <!-- Custom Javascript -->
     <script src="js/custom.js"></script>
