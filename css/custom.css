@@ -281,6 +281,28 @@ h3::after {
     background-repeat: no-repeat;
 }
 
+@media (max-width: 768px) {
+
+  .content-2.row.left, .data_pic, .col-sm-6.text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-100%);
+  }
+
+  .content-2 h5 {
+    font-size: 20px;
+    color: #216DBF;
+  }
+
+  .data_icons { 
+    height: 50px; 
+    width: 50px; 
+    line-height: 50px; 
+    font-size: 20px;
+ }
+
+}
+
 .content-3 {
 	padding: 20px 0 40px;
 	text-align: center;
